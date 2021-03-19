@@ -1,0 +1,99 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "PowerArgs/3.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/PowerArgs.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PowerArgs.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PowerArgs/3.6.0": {
+      "sha512": "ooaQtI6nLOMNQoNfuiEcM1lnPJ9mBaXF99pt1EHnupwqZtC+L5I7IeSjZ/RA+h6Z2DImdFtWn9PNHbhcL9qNKA==",
+      "type": "package",
+      "path": "powerargs/3.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/PowerArgs.dll",
+        "lib/netstandard2.0/PowerArgs.xml",
+        "powerargs.3.6.0.nupkg.sha512",
+        "powerargs.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "PowerArgs >= 3.6.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\USER\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\BackEnd\\OOP\\RPGGame\\RPGGame\\RPGGame.csproj",
+      "projectName": "RPGGame",
+      "projectPath": "C:\\Users\\USER\\Desktop\\BackEnd\\OOP\\RPGGame\\RPGGame\\RPGGame.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\Desktop\\BackEnd\\OOP\\RPGGame\\RPGGame\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "PowerArgs": {
+            "target": "Package",
+            "version": "[3.6.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
