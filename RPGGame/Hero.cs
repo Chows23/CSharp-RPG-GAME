@@ -60,11 +60,11 @@ namespace RPGGame
         {
             Console.WriteLine("Current weapons you have:");
             foreach (var weapon in this.WeaponsBag)
-                Console.WriteLine(weapon.Name);
+                Console.WriteLine($"< {weapon.Name} >  attack +{weapon.Power}");
 
             Console.WriteLine("Current armors you have:");
             foreach (var armor in this.ArmorsBag)
-                Console.WriteLine(armor.Name);
+                Console.WriteLine($"< {armor.Name} >  block +{armor.Power}");
         }
 
     }

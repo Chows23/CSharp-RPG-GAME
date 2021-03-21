@@ -49,7 +49,7 @@ namespace RPGGame
 
         public void FollowingOptions()
         {
-            Console.WriteLine("The following options: Please enter number between 1 and 3");
+            Console.WriteLine("The following options: Please enter number between 1 and 4");
             Console.WriteLine("1. Show statistics, 2. Show inventory, 3. Fight the random monster, 4. Fight the strongest monster");
             
             string choice = string.Empty;
