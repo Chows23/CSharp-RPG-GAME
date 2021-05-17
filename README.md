@@ -1,4 +1,4 @@
-# RPG-GAME
+# C#, OOP RPG-GAME
 
 We want to create an RPG game, like those games where you are a hero and you are fighting monsters.
 The game will start with asking about our name, then it will present us with the following options:
